@@ -1,0 +1,118 @@
+<html>
+    <head>
+        <title> Bookstrap</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">Navbar</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Dropdown
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                  </li>
+                </ul>
+                <form class="d-flex">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+              </div>
+            </div>
+          </nav>
+          <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+            <ol class="breadcrumb">
+              <li class="breadcrumb-item"><a href="#">Home</a></li>
+              <li class="breadcrumb-item active" aria-current="page">Library</li>
+            </ol>
+          </nav>
+          <div class="card-group">
+            <div class="card">
+              <img src="data:image/jpeg;base64,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" class="card-img-top" alt="image">
+              <div class="card-body">
+                <h5 class="card-title">Hacking</h5>
+                <p class="card-text">Hacking refers to activities that seek to compromise digital devices, such as computers, smartphones, tablets, and even entire networks. Hackers are motivated by personal gain, to make a statement, or just because they can.</p>
+                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+              </div>
+            </div>
+            <div class="card">
+              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSF8CMxbRqZdAneFsZkuJlRfGT6TL_mJyGGtImGjXksWA&usqp=CAU&ec=48600113" class="card-img-top" alt="image">
+              <div class="card-body">
+                <h5 class="card-title">Hacking</h5>
+                <p class="card-text">A hacker is a person skilled in information technology who uses their technical knowledge to achieve a goal or overcome an obstacle, within a computerized system by non-standard means </p>
+                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+              </div>
+            </div>
+            <div class="card">
+              <img src="https://cdn.wallpapersafari.com/20/10/schtgJ.jpg" class="card-img-top" alt="image">
+              <div class="card-body">
+                <h5 class="card-title">Hacking</h5>
+                <p class="card-text">Kevin Mitnick holds the title as the world's most famous hacker ever, with this title dating back to 1995 by the US Department of Justice. Kevin Mitnick started hacking at an early age. </p>
+                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+              </div>
+            </div>
+          </div>
+          <div class="accordion" id="accordionExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingOne">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                  Hacking
+                </button>
+              </h2>
+              <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <strong>Top 10 Most Notorious Hackers of All Time</strong>
+                  Matthew Bevan and Richard Pryce.<br>
+                  Jeanson James Ancheta.<br>
+                  Michael Calce.<br>
+                  Kevin Poulsen.<br>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                 Type of Hacking
+                </button>
+              </h2>
+              <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <strong>Top 10 Most Notorious Hackers of All Time</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingThree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                    Type of Hacking
+                </button>
+              </h2>
+              <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                </div>
+              </div>
+            </div>
+          </div>
+    </body>
+</html>
